@@ -1,0 +1,44 @@
+.about-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+.about-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.about-page h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.member img {
+  width: 120px;
+  height: 120px;
+  /* border-radius: 50%; */
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.member p {
+  margin: 0;
+  font-size: 1rem;
+}
