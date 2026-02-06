@@ -9,18 +9,18 @@
   left: 50%;
   width: 100%;
   height: 100vh;
-  filter: brightness(80%); /* 50% ljusstyrka = mörkare */
+  filter: brightness(80%); 
 
-  object-fit: cover;   /* beskär och fyller hela området */
+  object-fit: cover;  
   transform: translate(-50%, -50%);
-  z-index: 0;         /* ligger bakom texten */
+  z-index: 0;        
 }
 
-/* Hero sektion */
+
 .hero {
   width: 100%;
-  height: 85vh; /* täcker stora delen av skärmen */
-  background-size: cover; /* fyller hela området */
+  height: 85vh; 
+  background-size: cover; 
   background-position: center;
   display: flex;
   justify-content: center;
@@ -64,7 +64,6 @@
 }
 
 
-/* Sektion under hero */
 .content {
   max-width: 1200px;
   margin: 32rem auto;

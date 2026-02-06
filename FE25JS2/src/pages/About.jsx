@@ -1,4 +1,7 @@
 import "./About.css";
+import jane from "../assets/pexels-moose-photos-170195-1587009.jpg";
+import john from "../assets/pexels-moose-photos-170195-1036627.jpg";
+
 
 function About() {
   return (
@@ -12,11 +15,11 @@ function About() {
       <h2>Our Team</h2>
       <div className="team">
         <div className="member">
-          <img src="https://via.placeholder.com/120" alt="Jane Doe" />
+          <img src={jane} alt="Jane Doe" />
           <p>Jane Doe – CEO</p>
         </div>
         <div className="member">
-          <img src="https://via.placeholder.com/120" alt="John Smith" />
+          <img src={john} alt="John Smith" />
           <p>John Smith – Designer</p>
         </div>
       </div>

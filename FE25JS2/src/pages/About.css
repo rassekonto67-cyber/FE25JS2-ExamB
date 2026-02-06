@@ -31,14 +31,16 @@
 }
 
 .member img {
-  width: 120px;
-  height: 120px;
-  /* border-radius: 50%; */
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
+  object-position: top;
   margin-bottom: 0.5rem;
 }
 
 .member p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }

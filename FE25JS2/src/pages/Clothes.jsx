@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import "./Clothes.css"
 import ProductCard from "../components/ProductCard"
+import FilterButtons from "../components/FilterButtons"
+import SortSelect from "../components/SortSelect"
 
 
 function Clothes() {
@@ -47,41 +49,12 @@ function Clothes() {
 
   return (
     <main className="clothes-page">
-      <h1>Clothes</h1>
+      <h1>New Collection</h1>
 
-<div className="filter-buttons" aria-label="Filter clothes">
-    <button
-      className={filter === "all" ? "active" : ""}
-      onClick={() => setFilter("all")}
-    >
-      All
-    </button>
-    <button
-      className={filter === "men" ? "active" : ""}
-      onClick={() => setFilter("men")}
-    >
-      Men
-    </button>
-    <button
-      className={filter === "women" ? "active" : ""}
-      onClick={() => setFilter("women")}
-    >
-      Women
-    </button>
-  </div>
 
-      {/* Filter + Sortering */}
-      <form className="controls" aria-label="Filter och sortering">
-       
-        <fieldset>
-          <label htmlFor="sort">Sort after: </label>
-          <select id="sort" value={sortBy} onChange={e => setSortBy(e.target.value)}>
-            <option value="none">None</option>
-            <option value="price">Price</option>
-            <option value="name">Name</option>
-          </select>
-        </fieldset>
-      </form>
+<FilterButtons filter={filter} setFilter={setFilter} />
+<SortSelect sortBy={sortBy} setSortBy={setSortBy} />
+
 
       {/* Lista med produkter (props) från ProductCard */}
       <ul className="clothes-grid">

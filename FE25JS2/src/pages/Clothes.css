@@ -5,7 +5,7 @@ h1 {
 }
 
 .clothes-page {
-  padding: 15rem;
+  padding: 2rem 15rem 2rem 15rem;
 }
 
 .clothes-grid {
@@ -38,6 +38,11 @@ h1 {
   object-fit: contain;
 }
 
+.filter-buttons {
+  display: flex;
+  gap: 0.2rem;
+  margin-bottom: 1.5rem;
+}
 
 .sort-dropdown {
     display: flex;
@@ -66,7 +71,7 @@ h1 {
 .controls label {
   font-weight: 500;
   margin-right: 0.5rem;
-  color: #333;
+  color: #191919;
   font-size: 0.95rem;
 }
 
