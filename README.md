@@ -1,3 +1,4 @@
+(Jag siktar på VG)
 Denna app ska vara en enkel klädbutik, utan möjligheten att sätta något i en varukorg eller köpa någon produkt. Appen har en "start"-sida, en "About"-sida och en "Clothes"-sida där man ser produkterna.
 
 Man startar appen genom att använda sig utav Terminalen. Man öppnar Terminalen i package.json filen och skriver in "npm run dev" där får man en localhost-kod och man kan öppna den redan där med alt + vänster click på Windows, eller command(CMD) + vänster click på macOS.
@@ -44,6 +45,7 @@ Jag använder mig utav ett API som heter Fake Store API (https://fakestoreapi.co
 * Appen har en sorteringsfunktion (UI-funktion)
 
 Något som jag hade problem var med navigeringen i början, jag hade dubblerat både från navigerings.jsx och i själva filerna om home, about osv.. så det fixades med MainLayout och att man importerade den i app.jsx. Annars hade jag inte så mycket problem, det mesta problemen kom med css:en som inte var prioritet i detta projekt.
+
 
 
 
