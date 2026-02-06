@@ -8,7 +8,7 @@ Man startar appen genom att använda sig utav Terminalen. Man öppnar Terminalen
 (A) SPA + Routing (React Router)
 
 - [x] Appen har SPA med client-side routing (React Router)
-* Appen har minst 3 routes/views, Home-sidan, About-sidan och Clothes-sidan.
+- [ ] Appen har minst 3 routes/views, Home-sidan, About-sidan och Clothes-sidan.
 * Appen använder sig av React Routers inbyggda Link för navigationen.
   
 (B) Komponentsstruktur + Props
@@ -45,6 +45,7 @@ Jag använder mig utav ett API som heter Fake Store API (https://fakestoreapi.co
 * Appen har en sorteringsfunktion (UI-funktion)
 
 Något som jag hade problem var med navigeringen i början, jag hade dubblerat både från navigerings.jsx och i själva filerna om home, about osv.. så det fixades med MainLayout och att man importerade den i app.jsx. Annars hade jag inte så mycket problem, det mesta problemen kom med css:en som inte var prioritet i detta projekt.
+
 
 
 
