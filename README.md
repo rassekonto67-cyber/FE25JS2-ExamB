@@ -38,10 +38,12 @@ Jag använder mig utav ett API som heter Fake Store API (https://fakestoreapi.co
 
 * Jag gjorde en extra detail view när man klickar på själva produkten, så ser man beskrivningen för plagget.
 * Jag använder även mig utav useParams för att få rätt id till kläderna på produkt sidan där man ser beskrivning (detaljerade vyn).
+  
 "Och minst 1 av dessa:"
 
 * Appen har en sorteringsfunktion (UI-funktion)
 
 Något som jag hade problem var med navigeringen i början, jag hade dubblerat både från navigerings.jsx och i själva filerna om home, about osv.. så det fixades med MainLayout och att man importerade den i app.jsx. Annars hade jag inte så mycket problem, det mesta problemen kom med css:en som inte var prioritet i detta projekt.
+
 
 
